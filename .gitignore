@@ -1,0 +1,3 @@
+# Local .terraform directories
+vpc-practise/.terraform/*
+vpc-practise/.terraform.lock.hcl
