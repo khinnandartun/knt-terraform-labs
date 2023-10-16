@@ -54,9 +54,9 @@ module "eks" {
   }
 }
 
-resource "null_resource" "something" {
-  provisioner "local-exec" {
-#    command = "export KUBECONFIG=~/.kube/eks-knt.yaml && kubectl create ns elastic && helm  repo add elastic https://Helm.elastic.co && curl -O https://raw.githubusercontent.com/elastic/Helm-charts/master/elasticsearch/examples/minikube/values.yaml && helm install elasticsearch elastic/elasticsearch -f ./values.yaml -n elastic "
-    command = "helm install kibana elastic/kibana -n elastic"
-}
-}
+# resource "null_resource" "something" {
+#   provisioner "local-exec" {
+# #    command = "export KUBECONFIG=~/.kube/eks-knt.yaml && kubectl create ns elastic && helm  repo add elastic https://Helm.elastic.co && curl -O https://raw.githubusercontent.com/elastic/Helm-charts/master/elasticsearch/examples/minikube/values.yaml && helm install elasticsearch elastic/elasticsearch -f ./values.yaml -n elastic "
+#     command = "helm install kibana elastic/kibana -n elastic"
+# }
+# }
