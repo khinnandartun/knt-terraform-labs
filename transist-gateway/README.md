@@ -9,6 +9,6 @@ The mission of this lab is to get the connection between 4 VPC and the private s
 Architecture Design
 =======================================
 
-![transistGateway](https://github.com/khinnandartun/knt-terraform-labs/assets/79824409/c0d6eba4-3de5-4020-9e08-c677a89950c8)
+![transistGateway](https://github.com/khinnandartun/knt-terraform-labs/assets/79824409/38ce83f6-2885-49f8-b345-1dbea60700c5)
 
 
