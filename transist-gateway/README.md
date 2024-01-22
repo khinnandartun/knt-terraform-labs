@@ -12,3 +12,14 @@ Architecture Design
 ![transistGateway](https://github.com/khinnandartun/knt-terraform-labs/assets/79824409/38ce83f6-2885-49f8-b345-1dbea60700c5)
 
 
+VPC Route Table
+=======================================
+VPC-A (subnet_a)
+
+
+
+
+Reference Link
+========================================
+
+https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-nat-igw.html
